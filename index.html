@@ -53,7 +53,7 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="about.html">About</a>
+                        <a href="about.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a>
                     </li>
                     <li>
                         <a href="services.html">Services</a>
@@ -76,7 +76,7 @@
 
 
     <!-- Header Carousel -->
-    <header id="myCarousel" class="carousel slide">
+    <header id="myCarousel" class="carousel slide" data-stellar-ratio="0.9">
         <!-- Indicators -->
         <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -116,10 +116,10 @@
     </header>
 
     <!-- Page Content -->
-    <div class="container">
+    <div class="container my-content"  data-stellar-ratio="0.4" >
 
         <!-- Marketing Icons Section -->
-        <div class="row">
+        <div class="row col-centered">
             <div class="col-lg-12">
                 <h1 class="page-header">
                     Welcome to Modern Business
@@ -192,6 +192,9 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.stellar.js"></script>
+    <script src="js/jquery.nicescroll.js"></script>
+    <script src="js/script.js"></script>
 
     <!-- Script to Activate the Carousel -->
     <script>
